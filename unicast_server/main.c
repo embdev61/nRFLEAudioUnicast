@@ -529,14 +529,13 @@ int main(void)
 	ret = nrf5340_audio_dk_init();
 	ERR_CHK(ret);
 
-    //LOG_INF(COLOR_RED "fw_info_app_print call" COLOR_RESET);
-	//ret = fw_info_app_print();
-	//ERR_CHK(ret);
+    LOG_INF(COLOR_RED "fw_info_app_print call" COLOR_RESET);
+	ret = fw_info_app_print();
+	ERR_CHK(ret);
 
 	ret = bt_mgmt_init();
 	ERR_CHK(ret);
 
-#if 0
 	ret = audio_system_init();
 	ERR_CHK(ret);
 
@@ -556,7 +555,6 @@ int main(void)
 	} else {
 		location = BT_AUDIO_LOCATION_FRONT_RIGHT;
 	}
-#endif
 
 	ret = unicast_server_enable(le_audio_rx_data_handler, location);
 	ERR_CHK_MSG(ret, "Failed to enable LE Audio");
