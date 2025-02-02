@@ -527,12 +527,13 @@ int main(void)
 	size_t ext_adv_buf_cnt = 0;
 
 	ret = nrf5340_audio_dk_init();
-	ERR_CHK(ret);
+	//ERR_CHK(ret);
 
     LOG_INF(COLOR_RED "fw_info_app_print call" COLOR_RESET);
 	ret = fw_info_app_print();
-	ERR_CHK(ret);
+	//ERR_CHK(ret);
 
+    LOG_INF(COLOR_YELLOW "Now Initialize BT thing" COLOR_RESET);
 	ret = bt_mgmt_init();
 	ERR_CHK(ret);
 

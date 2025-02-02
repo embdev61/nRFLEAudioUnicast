@@ -89,3 +89,9 @@ https://youtu.be/45uNJvo6djA
 https://youtu.be/64F3G2fiMBc
 
 
+# Git command for commit the changes
+
+git status
+git add .
+git commit -m " "
+git push origin main

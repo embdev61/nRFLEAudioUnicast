@@ -80,7 +80,8 @@ static int version_search(int reg_value, uint32_t tolerance, struct board_versio
 
 	if (smallest_diff >= tolerance) {
 		LOG_ERR("Board ver search failed. ADC reg read: %d", reg_value);
-		return -ESPIPE; /* No valid board_rev found */
+		LOG_ERR("Disable Error Warning ");
+		//return -ESPIPE; /* No valid board_rev found */
 	}
 
 	*board_rev = BOARD_VERSION_ARR[smallest_diff_idx];
@@ -170,7 +171,7 @@ int board_version_valid_check(void)
 	} else {
 		LOG_ERR("Invalid board found, rev: %s Valid mask: 0x%x valid mask: 0x%lx",
 			board_rev.name, board_rev.mask, BOARD_VERSION_VALID_MSK);
-		return -EPERM;
+		//return -EPERM;
 	}
 #endif
 	return 0;

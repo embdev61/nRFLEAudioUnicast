@@ -456,12 +456,12 @@ int bt_mgmt_init(void)
 	}
 
 	if (IS_ENABLED(CONFIG_BT_CONN)) {
-		//LOG_ERR("CONFIG_BT_CONN ");
+		LOG_ERR("CONFIG_BT_CONN ");
 		bt_conn_cb_register(&conn_callbacks);
 	}
 
 	if (IS_ENABLED(CONFIG_BT_PERIPHERAL) || IS_ENABLED(CONFIG_BT_BROADCASTER)) {
-		//LOG_ERR("bt_mgmt_adv_init ");
+		LOG_ERR("bt_mgmt_adv_init ");
 		bt_mgmt_adv_init();
 	}
 
