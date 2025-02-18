@@ -1,0 +1,62 @@
+/*
+ * Copyright (c) 2024 Nordic Semiconductor ASA
+ *
+ * SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
+ */
+
+&usbd {
+	hs_0: hs_0 {
+		compatible = "usb-audio-hs";
+		mic-feature-mute;
+		mic-channel-l;
+		mic-channel-r;
+
+		hp-feature-mute;
+		hp-channel-l;
+		hp-channel-r;
+	};
+};
+
+&gpiote {
+    status = "okay";
+};
+
+&gpio0 {
+    status = "okay";
+};
+
+/*
+&gpio0 {
+    status = "okay";
+    codec-interface {
+        gpio-hog;
+        gpios = <21 0>;
+        output-low;
+    };
+    custom-interface {
+        gpio-hog;
+        gpios = <22 0>;
+        output-low;
+    };
+};
+ */
+/* 
+ &gpio0 {
+    status = "okay";
+    custom_gpio22: custom_gpio22 {
+        gpio-hog;
+        gpios = <22 GPIO_ACTIVE_HIGH>;
+        output-high;
+        line-name = "Custom GPIO 22";
+    };
+};
+*/
+
+&gpio0 {
+    status = "okay";
+    custom_gpio22: custom_gpio22 {
+        compatible = "gpio-leds";
+        gpios = <&gpio0 22 GPIO_ACTIVE_HIGH>;
+        label = "Custom GPIO 22";
+    };
+};

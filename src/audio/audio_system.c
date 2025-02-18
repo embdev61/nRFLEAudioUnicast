@@ -480,6 +480,9 @@ int audio_system_init(void)
 		LOG_ERR("Failed to initialize audio datapath: %d", ret);
 		return ret;
 	}
+	else{
+		LOG_INF(COLOR_YELLOW "Sucess to initialize audio datapath" COLOR_RESET);
+	}
 
 	ret = hw_codec_init();
 	if (ret) {

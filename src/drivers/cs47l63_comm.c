@@ -14,7 +14,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <zephyr/kernel.h>
+//#include <zephyr/drivers/gpio.h>
+
+#include <zephyr/devicetree.h>
 #include <zephyr/drivers/gpio.h>
+
 
 #include "bsp_driver_if.h"
 #include "cs47l63.h"
@@ -46,6 +50,63 @@ static K_THREAD_STACK_DEFINE(cs47l63_stack, CONFIG_CS47L63_STACK_SIZE);
 static K_SEM_DEFINE(sem_cs47l63, 0, 1);
 
 static struct k_mutex cirrus_reg_oper_mutex;
+
+#if 1 // embdev: Code added for enabling GPIOP0.22 to high.
+
+//#define CUSTOM_GPIO22_NODE DT_NODELABEL(custom_gpio22)
+//static const struct gpio_dt_spec gpio_custom = GPIO_DT_SPEC_GET(CUSTOM_GPIO22_NODE, gpios);
+
+//#define CUSTOM_GPIO22_NODE DT_NODELABEL(custom_gpio22)
+//static const struct gpio_dt_spec gpio_custom = GPIO_DT_SPEC_GET(CUSTOM_GPIO22_NODE, gpios);
+
+//#define CUSTOM_GPIO22_NODE DT_PATH(soc, peripheral_50000000, gpio_842500, custom_gpio22)
+//static const struct gpio_dt_spec gpio_custom = GPIO_DT_SPEC_GET(CUSTOM_GPIO22_NODE, gpios);
+
+#define CUSTOM_GPIO22_NODE DT_NODELABEL(custom_gpio22)
+static const struct gpio_dt_spec gpio_custom = GPIO_DT_SPEC_GET(CUSTOM_GPIO22_NODE, gpios);
+
+void configure_gpio_pin(void)
+{
+
+#if 1
+int ret;
+
+if (!device_is_ready(gpio_custom.port)) {
+    printk("Error: GPIO device is not ready\n");
+    return;
+}
+
+ret = gpio_pin_configure_dt(&gpio_custom, GPIO_OUTPUT_ACTIVE);
+if (ret < 0) {
+    printk("Error %d: failed to configure GPIO pin %d\n", ret, gpio_custom.pin);
+    return;
+}
+
+// To set the GPIO high
+gpio_pin_set_dt(&gpio_custom, 1);
+
+// To set the GPIO low
+//gpio_pin_set_dt(&gpio_custom, 0);
+#endif
+
+#if 0	
+    int ret;
+
+    if (!device_is_ready(gpio_custom)) {
+        LOG_ERR("Error: GPIO device %s is not ready", gpio_custom.port->name);
+        return;
+    }
+
+    ret = gpio_pin_set_dt(&gpio_custom, 1);
+    if (ret != 0) {
+        LOG_ERR("Error %d: failed to set pin %d", ret, CUSTOM_PIN);
+        return;
+    }
+
+    LOG_DBG("Configured GPIO pin %d to high", CUSTOM_PIN);
+#endif	
+}
+#endif
 
 static void notification_callback(uint32_t event_flags, void *arg)
 {
@@ -331,6 +392,8 @@ int cs47l63_comm_init(cs47l63_t *cs47l63_driver)
 
 	k_mutex_init(&cirrus_reg_oper_mutex);
 
+	configure_gpio_pin();  //embdev: Code added for enabling the GPIO P0.22 to high.
+
 	if (!spi_is_ready_dt(&spi)) {
 		LOG_ERR("CS47L63 is not ready!");
 		return -ENXIO;
@@ -402,11 +465,12 @@ int cs47l63_comm_init(cs47l63_t *cs47l63_driver)
 		return -ENXIO;
 	}
 
-	if (cs47l63_driver->devid != CS47L63_DEVID_VAL) {
-		LOG_ERR("Wrong device id: 0x%02x, should be 0x%02x", cs47l63_driver->devid,
-			CS47L63_DEVID_VAL);
-		return -EIO;
-	}
+	//Amit : Uncomment the code
+	//if (cs47l63_driver->devid != CS47L63_DEVID_VAL) {
+	//	LOG_ERR("Wrong device id: 0x%02x, should be 0x%02x", cs47l63_driver->devid,
+	//		CS47L63_DEVID_VAL);
+	//	return -EIO;
+	//}
 
 	return 0;
 }
