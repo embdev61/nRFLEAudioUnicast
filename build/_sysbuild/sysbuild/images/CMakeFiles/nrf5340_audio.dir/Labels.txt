@@ -1,0 +1,13 @@
+# Target labels
+ nrf5340_audio
+# Source files and their labels
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/CMakeFiles/nrf5340_audio
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/CMakeFiles/nrf5340_audio.rule
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/CMakeFiles/nrf5340_audio-complete.rule
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/nrf5340_audio-prefix/src/nrf5340_audio-stamp/nrf5340_audio-build.rule
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/nrf5340_audio-prefix/src/nrf5340_audio-stamp/nrf5340_audio-configure.rule
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/nrf5340_audio-prefix/src/nrf5340_audio-stamp/nrf5340_audio-download.rule
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/nrf5340_audio-prefix/src/nrf5340_audio-stamp/nrf5340_audio-install.rule
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/nrf5340_audio-prefix/src/nrf5340_audio-stamp/nrf5340_audio-mkdir.rule
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/nrf5340_audio-prefix/src/nrf5340_audio-stamp/nrf5340_audio-patch.rule
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/nrf5340_audio-prefix/src/nrf5340_audio-stamp/nrf5340_audio-update.rule

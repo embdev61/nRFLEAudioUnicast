@@ -1,0 +1,7 @@
+C:/ncs/v2.9.0/zephyr/drivers/watchdog/wdt_nrfx.c:144:12:wdt_nrf_feed	8	static
+C:/ncs/v2.9.0/zephyr/drivers/watchdog/wdt_nrfx.c:91:12:wdt_nrf_install_timeout	24	static
+C:/ncs/v2.9.0/zephyr/drivers/watchdog/wdt_nrfx.c:61:12:wdt_nrf_disable	16	static
+C:/ncs/v2.9.0/zephyr/drivers/watchdog/wdt_nrfx.c:27:12:wdt_nrf_setup	32	static
+C:/ncs/v2.9.0/zephyr/drivers/watchdog/wdt_nrfx.c:233:1:wdt_0_init	8	static
+C:/ncs/v2.9.0/zephyr/drivers/watchdog/wdt_nrfx.c:170:13:wdt_event_handler	24	static
+C:/ncs/v2.9.0/zephyr/drivers/watchdog/wdt_nrfx.c:233:1:wdt_0_event_handler	8	static

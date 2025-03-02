@@ -1,0 +1,13 @@
+C:/ncs/v2.9.0/zephyr/subsys/storage/flash_map/flash_map_priv.h:21:40:get_flash_area_from_id	0	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/nrf5340_audio/zephyr/include/generated/zephyr/syscalls/flash.h:78:19:flash_erase	8	static
+C:/ncs/v2.9.0/zephyr/subsys/storage/flash_map/flash_map.c:22:6:flash_area_foreach	16	static
+C:/ncs/v2.9.0/zephyr/subsys/storage/flash_map/flash_map.c:29:5:flash_area_open	16	static
+C:/ncs/v2.9.0/zephyr/subsys/storage/flash_map/flash_map.c:51:6:flash_area_close	0	static
+C:/ncs/v2.9.0/zephyr/subsys/storage/flash_map/flash_map.c:56:5:flash_area_read	8	static
+C:/ncs/v2.9.0/zephyr/subsys/storage/flash_map/flash_map.c:66:5:flash_area_write	8	static
+C:/ncs/v2.9.0/zephyr/subsys/storage/flash_map/flash_map.c:76:5:flash_area_erase	8	static
+C:/ncs/v2.9.0/zephyr/subsys/storage/flash_map/flash_map.c:85:5:flash_area_flatten	8	static
+C:/ncs/v2.9.0/zephyr/subsys/storage/flash_map/flash_map.c:94:10:flash_area_align	8	static
+C:/ncs/v2.9.0/zephyr/subsys/storage/flash_map/flash_map.c:99:5:flash_area_has_driver	8	static
+C:/ncs/v2.9.0/zephyr/subsys/storage/flash_map/flash_map.c:108:22:flash_area_get_device	0	static
+C:/ncs/v2.9.0/zephyr/subsys/storage/flash_map/flash_map.c:120:9:flash_area_erased_val	8	static

@@ -1,0 +1,13 @@
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/adc.h:744:19:adc_channel_setup_dt	8	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/pm/device.h:716:19:pm_device_driver_init	16	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:965:19:z_impl_gpio_pin_configure	24	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:1028:19:gpio_pin_configure_dt	8	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:1576:19:gpio_pin_set_raw	8	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:1616:19:gpio_pin_set	16	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/adc.h:878:19:adc_raw_to_millivolts	24	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/adc.h:906:19:adc_raw_to_millivolts_dt	8	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/logging/log_msg.h:705:20:z_log_msg_runtime_create	32	static
+C:/ncs/v2.9.0/zephyr/drivers/sensor/voltage_divider/voltage.c:46:12:get	48	static
+C:/ncs/v2.9.0/zephyr/drivers/sensor/voltage_divider/voltage.c:28:12:fetch	24	static
+C:/ncs/v2.9.0/zephyr/drivers/sensor/voltage_divider/voltage.c:90:12:pm_action	24	static
+C:/ncs/v2.9.0/zephyr/drivers/sensor/voltage_divider/voltage.c:130:12:voltage_init	40	static

@@ -1,0 +1,17 @@
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/audio/audio_system.c:53:13:sample_rate_valid	0	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/audio/audio_system.c:85:13:audio_headset_configure	0	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/logging/log_msg.h:705:20:z_log_msg_runtime_create	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/audio/audio_system.c:107:13:encoder_thread	2976	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/audio/audio_system.c:185:6:audio_system_encoder_start	8	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/audio/audio_system.c:191:6:audio_system_encoder_stop	8	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/audio/audio_system.c:196:5:audio_system_encode_test_tone_set	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/audio/audio_system.c:221:5:audio_system_encode_test_tone_step	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/audio/audio_system.c:254:5:audio_system_config_set	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/audio/audio_system.c:281:5:audio_system_decode	72	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/audio/audio_system.c:366:6:audio_system_start	40	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/audio/audio_system.c:498:12:cmd_audio_system_start	8	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/audio/audio_system.c:415:6:audio_system_stop	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/audio/audio_system.c:510:12:cmd_audio_system_stop	8	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/audio/audio_system.c:444:5:audio_system_fifo_rx_block_drop	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/audio/audio_system.c:462:5:audio_system_decoder_num_ch_get	0	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/audio/audio_system.c:467:5:audio_system_init	24	static

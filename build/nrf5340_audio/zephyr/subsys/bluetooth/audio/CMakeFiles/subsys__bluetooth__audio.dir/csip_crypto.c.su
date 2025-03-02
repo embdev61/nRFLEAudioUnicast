@@ -1,0 +1,7 @@
+C:/ncs/v2.9.0/zephyr/include/zephyr/sys/byteorder.h:710:20:sys_mem_swap	4	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/sys/byteorder.h:684:20:sys_memcpy_swap	8	static
+C:/ncs/v2.9.0/zephyr/subsys/bluetooth/audio/csip_crypto.c:137:12:s1	24	static
+C:/ncs/v2.9.0/zephyr/subsys/bluetooth/audio/csip_crypto.c:94:12:k1	24	static
+C:/ncs/v2.9.0/zephyr/subsys/bluetooth/audio/csip_crypto.c:36:5:bt_csip_sih	24	static
+C:/ncs/v2.9.0/zephyr/subsys/bluetooth/audio/csip_crypto.c:158:5:bt_csip_sef	88	static
+C:/ncs/v2.9.0/zephyr/subsys/bluetooth/audio/csip_crypto.c:209:5:bt_csip_sdf	8	static

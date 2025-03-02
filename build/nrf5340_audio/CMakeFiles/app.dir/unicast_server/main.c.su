@@ -1,0 +1,12 @@
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/unicast_server/main.c:58:13:stream_state_set	0	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/zbus/zbus.h:667:27:zbus_chan_const_msg	8	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/logging/log_msg.h:705:20:z_log_msg_runtime_create	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/unicast_server/main.c:338:13:bt_mgmt_evt_handler	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/unicast_server/main.c:174:13:le_audio_msg_sub_thread	72	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/unicast_server/main.c:66:13:button_msg_sub_thread	48	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/unicast_server/main.c:303:12:zbus_subscribers_create	40	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/unicast_server/main.c:391:12:zbus_link_producers_observers	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/unicast_server/main.c:438:12:ext_adv_populate	40	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/unicast_server/main.c:491:9:stream_state_get	0	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/unicast_server/main.c:496:6:streamctrl_send	40	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/unicast_server/main.c:518:5:main	40	static

@@ -1,0 +1,10 @@
+default: nrf5340_audio
+build_dir: C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build
+domains:
+  - name: nrf5340_audio
+    build_dir: C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/nrf5340_audio
+  - name: ipc_radio
+    build_dir: C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/ipc_radio
+flash_order:
+  - ipc_radio
+  - nrf5340_audio

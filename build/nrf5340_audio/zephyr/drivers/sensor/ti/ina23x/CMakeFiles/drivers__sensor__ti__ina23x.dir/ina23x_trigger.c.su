@@ -1,0 +1,8 @@
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:1717:19:gpio_add_callback	8	static
+C:/ncs/v2.9.0/zephyr/drivers/sensor/ti/ina23x/ina23x_trigger.c:13:13:ina23x_gpio_callback	8	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:965:19:z_impl_gpio_pin_configure	24	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:1028:19:gpio_pin_configure_dt	8	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:1692:20:gpio_init_callback	8	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:866:19:z_impl_gpio_pin_interrupt_configure	16	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/logging/log_msg.h:705:20:z_log_msg_runtime_create	32	static
+C:/ncs/v2.9.0/zephyr/drivers/sensor/ti/ina23x/ina23x_trigger.c:23:5:ina23x_trigger_mode_init	32	static

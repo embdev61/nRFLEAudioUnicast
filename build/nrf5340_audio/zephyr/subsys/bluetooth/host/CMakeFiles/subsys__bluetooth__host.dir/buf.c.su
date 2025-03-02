@@ -1,0 +1,6 @@
+C:/ncs/v2.9.0/zephyr/include/zephyr/net_buf.h:1469:20:net_buf_destroy	16	static
+C:/ncs/v2.9.0/zephyr/subsys/bluetooth/host/buf.c:56:17:bt_buf_get_rx	16	static
+C:/ncs/v2.9.0/zephyr/subsys/bluetooth/host/buf.c:85:17:bt_buf_get_evt	8	static
+C:/ncs/v2.9.0/zephyr/subsys/bluetooth/host/buf.c:185:6:bt_buf_destroy_view	16	static
+C:/ncs/v2.9.0/zephyr/subsys/bluetooth/host/buf.c:200:6:bt_buf_has_view	0	static
+C:/ncs/v2.9.0/zephyr/subsys/bluetooth/host/buf.c:147:17:bt_buf_make_view	24	static

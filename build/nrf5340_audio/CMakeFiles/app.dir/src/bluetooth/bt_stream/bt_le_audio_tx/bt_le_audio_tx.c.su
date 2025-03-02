@@ -1,0 +1,8 @@
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/bt_le_audio_tx/bt_le_audio_tx.c:145:12:get_tx_sync_sdc	24	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/logging/log_msg.h:705:20:z_log_msg_runtime_create	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/bt_le_audio_tx/bt_le_audio_tx.c:83:12:iso_stream_send	64	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/bt_le_audio_tx/bt_le_audio_tx.c:165:12:iso_conn_handle_set	48	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/bt_le_audio_tx/bt_le_audio_tx.c:190:5:bt_le_audio_tx_send	112	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/bt_le_audio_tx/bt_le_audio_tx.c:319:5:bt_le_audio_tx_stream_started	40	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/bt_le_audio_tx/bt_le_audio_tx.c:334:5:bt_le_audio_tx_stream_sent	8	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/bt_le_audio_tx/bt_le_audio_tx.c:345:6:bt_le_audio_tx_init	16	static

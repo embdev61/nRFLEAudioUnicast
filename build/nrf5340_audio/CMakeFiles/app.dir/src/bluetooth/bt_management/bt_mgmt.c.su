@@ -1,0 +1,14 @@
+C:/ncs/v2.9.0/zephyr/include/zephyr/logging/log_msg.h:705:20:z_log_msg_runtime_create	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:46:13:conn_state_connected_check	72	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:170:13:security_changed_cb	64	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/bluetooth/addr.h:242:19:bt_addr_le_to_str	64	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:128:13:disconnected_cb	104	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:65:13:connected_cb	112	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:202:13:bt_enabled_cb	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:293:12:local_identity_addr_print	80	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:316:6:bt_mgmt_num_conn_get	8	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:321:5:bt_mgmt_bonding_clear	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:214:12:bonding_clear_check	8	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:338:5:bt_mgmt_pa_sync_delete	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:356:5:bt_mgmt_conn_disconnect	40	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:374:5:bt_mgmt_init	24	static

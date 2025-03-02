@@ -1,0 +1,15 @@
+C:/ncs/v2.9.0/zephyr/kernel/init.c:308:12:do_device_init	8	static
+C:/ncs/v2.9.0/zephyr/kernel/init.c:350:13:z_sys_init_run_level	16	static
+C:/ncs/v2.9.0/zephyr/kernel/init.c:581:13:init_idle_thread	48	static
+C:/ncs/v2.9.0/zephyr/kernel/include/kthread.h:46:20:thread_schedule_new	8	static
+C:/ncs/v2.9.0/zephyr/kernel/init.c:67:13:z_init_static_threads	32	static
+C:/ncs/v2.9.0/zephyr/kernel/init.c:503:13:bg_thread_main	8	static
+C:/ncs/v2.9.0/zephyr/kernel/init.c:690:27:switch_to_main_thread	8	static
+C:/ncs/v2.9.0/zephyr/kernel/init.c:198:13:z_early_memset	8	static
+C:/ncs/v2.9.0/zephyr/kernel/init.c:211:13:z_early_memcpy	8	static
+C:/ncs/v2.9.0/zephyr/kernel/init.c:222:6:z_bss_zero	8	static
+C:/ncs/v2.9.0/zephyr/kernel/init.c:381:5:z_impl_device_init	8	static
+C:/ncs/v2.9.0/zephyr/kernel/init.c:611:6:z_init_cpu	8	static
+C:/ncs/v2.9.0/zephyr/kernel/init.c:656:14:prepare_multithreading	40	static
+C:/ncs/v2.9.0/zephyr/kernel/init.c:708:13:z_early_rand_get	24	static
+C:/ncs/v2.9.0/zephyr/kernel/init.c:752:20:z_cstart	8	static

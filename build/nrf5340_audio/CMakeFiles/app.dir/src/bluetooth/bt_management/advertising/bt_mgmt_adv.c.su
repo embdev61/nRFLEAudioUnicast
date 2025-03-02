@@ -1,0 +1,16 @@
+C:/ncs/v2.9.0/zephyr/include/zephyr/bluetooth/addr.h:242:19:bt_addr_le_to_str	64	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/logging/log_msg.h:705:20:z_log_msg_runtime_create	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/advertising/bt_mgmt_adv.c:102:12:addr_print	88	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/advertising/bt_mgmt_adv.c:123:13:adv_rpa_expired_cb	40	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/advertising/bt_mgmt_adv.c:86:13:filter_accept_list_add	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/advertising/bt_mgmt_adv.c:50:13:bond_find	64	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/advertising/bt_mgmt_adv.c:184:12:extended_adv_create	40	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/advertising/bt_mgmt_adv.c:148:12:direct_adv_create	80	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/advertising/bt_mgmt_adv.c:230:13:advertising_process	40	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/advertising/bt_mgmt_adv.c:340:5:bt_mgmt_manufacturer_uuid_populate	16	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/advertising/bt_mgmt_adv.c:351:5:bt_mgmt_adv_buffer_put	0	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/advertising/bt_mgmt_adv.c:371:5:bt_mgmt_per_adv_stop	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/advertising/bt_mgmt_adv.c:384:5:bt_mgmt_ext_adv_stop	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/advertising/bt_mgmt_adv.c:403:5:bt_mgmt_adv_start	56	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/advertising/bt_mgmt_adv.c:306:6:bt_mgmt_dir_adv_timed_out	56	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_management/advertising/bt_mgmt_adv.c:465:6:bt_mgmt_adv_init	8	static

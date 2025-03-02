@@ -1,0 +1,10 @@
+C:/ncs/v2.9.0/zephyr/arch/arm/include/cortex_m/dwt.h:97:19:z_arm_dwt_init_cycle_counter	8	static
+C:/ncs/v2.9.0/zephyr/arch/arm/core/cortex_m/timing.c:83:6:arch_timing_init	8	static
+C:/ncs/v2.9.0/zephyr/arch/arm/core/cortex_m/timing.c:89:6:arch_timing_start	0	static
+C:/ncs/v2.9.0/zephyr/arch/arm/core/cortex_m/timing.c:94:6:arch_timing_stop	0	static
+C:/ncs/v2.9.0/zephyr/arch/arm/core/cortex_m/timing.c:99:10:arch_timing_counter_get	0	static
+C:/ncs/v2.9.0/zephyr/arch/arm/core/cortex_m/timing.c:104:10:arch_timing_cycles_get	8	static
+C:/ncs/v2.9.0/zephyr/arch/arm/core/cortex_m/timing.c:110:10:arch_timing_freq_get	8	static
+C:/ncs/v2.9.0/zephyr/arch/arm/core/cortex_m/timing.c:125:10:arch_timing_freq_get_mhz	8	static
+C:/ncs/v2.9.0/zephyr/arch/arm/core/cortex_m/timing.c:115:10:arch_timing_cycles_to_ns	16	static
+C:/ncs/v2.9.0/zephyr/arch/arm/core/cortex_m/timing.c:120:10:arch_timing_cycles_to_ns_avg	8	static

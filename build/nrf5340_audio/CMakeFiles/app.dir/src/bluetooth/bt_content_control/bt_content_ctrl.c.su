@@ -1,0 +1,7 @@
+C:/ncs/v2.9.0/zephyr/include/zephyr/logging/log_msg.h:705:20:z_log_msg_runtime_create	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/bt_content_ctrl.c:37:5:bt_content_ctrl_start	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/bt_content_ctrl.c:60:5:bt_content_ctrl_stop	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/bt_content_ctrl.c:83:5:bt_content_ctrl_conn_disconnected	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/bt_content_ctrl.c:100:5:bt_content_ctrl_discover	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/bt_content_ctrl.c:115:5:bt_content_ctrl_uuid_populate	8	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/bt_content_ctrl.c:128:5:bt_content_ctrl_init	24	static

@@ -1,0 +1,7 @@
+C:/ncs/v2.9.0/zephyr/include/zephyr/logging/log_msg.h:705:20:z_log_msg_runtime_create	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/utils/error_handler.c:59:6:assert_post_action	32	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:965:19:z_impl_gpio_pin_configure	24	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:1028:19:gpio_pin_configure_dt	8	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/utils/error_handler.c:24:6:error_handler	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/utils/error_handler.c:48:6:bt_ctlr_assert_handle	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/utils/error_handler.c:54:6:k_sys_fatal_error_handler	8	static

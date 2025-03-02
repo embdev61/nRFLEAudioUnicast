@@ -1,0 +1,13 @@
+C:/ncs/v2.9.0/zephyr/include/zephyr/logging/log_msg.h:705:20:z_log_msg_runtime_create	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:15:5:le_audio_ep_state_get	56	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:37:6:le_audio_ep_state_check	16	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:54:6:le_audio_ep_qos_configured	48	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:81:5:le_audio_freq_hz_get	8	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:100:5:le_audio_duration_us_get	8	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:119:5:le_audio_octets_per_frame_get	8	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:133:5:le_audio_frame_blocks_per_sdu_get	8	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:148:5:le_audio_bitrate_get	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:171:5:le_audio_stream_dir_get	48	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:186:6:le_audio_bitrate_check	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:208:6:le_audio_freq_check	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:251:6:le_audio_print_codec	64	static

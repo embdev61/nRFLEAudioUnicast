@@ -1,0 +1,8 @@
+C:/ncs/v2.9.0/zephyr/subsys/bluetooth/audio/audio.c:100:13:valid_ltv_cb	0	static
+C:/ncs/v2.9.0/zephyr/subsys/bluetooth/audio/audio.c:113:16:bt_audio_security_check	40	static
+C:/ncs/v2.9.0/zephyr/subsys/bluetooth/audio/audio.c:31:5:bt_audio_data_parse	32	static
+C:/ncs/v2.9.0/zephyr/subsys/bluetooth/audio/audio.c:80:9:bt_audio_get_chan_count	8	static
+C:/ncs/v2.9.0/zephyr/subsys/bluetooth/audio/audio.c:106:6:bt_audio_valid_ltv	8	static
+C:/ncs/v2.9.0/zephyr/subsys/bluetooth/audio/audio.c:141:9:bt_audio_read_chrc	32	static
+C:/ncs/v2.9.0/zephyr/subsys/bluetooth/audio/audio.c:162:9:bt_audio_write_chrc	32	static
+C:/ncs/v2.9.0/zephyr/subsys/bluetooth/audio/audio.c:183:9:bt_audio_ccc_cfg_write	8	static

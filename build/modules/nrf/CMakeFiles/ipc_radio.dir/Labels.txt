@@ -1,0 +1,13 @@
+# Target labels
+ ipc_radio
+# Source files and their labels
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/modules/nrf/CMakeFiles/ipc_radio
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/modules/nrf/CMakeFiles/ipc_radio.rule
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/modules/nrf/CMakeFiles/ipc_radio-complete.rule
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp/ipc_radio-build.rule
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp/ipc_radio-configure.rule
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp/ipc_radio-download.rule
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp/ipc_radio-install.rule
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp/ipc_radio-mkdir.rule
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp/ipc_radio-patch.rule
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp/ipc_radio-update.rule

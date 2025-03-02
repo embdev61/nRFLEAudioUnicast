@@ -62,8 +62,14 @@ static struct k_mutex cirrus_reg_oper_mutex;
 //#define CUSTOM_GPIO22_NODE DT_PATH(soc, peripheral_50000000, gpio_842500, custom_gpio22)
 //static const struct gpio_dt_spec gpio_custom = GPIO_DT_SPEC_GET(CUSTOM_GPIO22_NODE, gpios);
 
+#if 0
 #define CUSTOM_GPIO22_NODE DT_NODELABEL(custom_gpio22)
 static const struct gpio_dt_spec gpio_custom = GPIO_DT_SPEC_GET(CUSTOM_GPIO22_NODE, gpios);
+#endif
+
+#define MY_DEV DT_NODELABEL(custom_gpio22)
+static const struct gpio_dt_spec gpio_custom = GPIO_DT_SPEC_GET(MY_DEV, gpios);
+
 
 void configure_gpio_pin(void)
 {

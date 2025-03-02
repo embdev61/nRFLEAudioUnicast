@@ -1,0 +1,7 @@
+C:/ncs/v2.9.0/zephyr/kernel/mem_slab.c:104:12:create_free_list	0	static
+C:/ncs/v2.9.0/zephyr/kernel/mem_slab.c:208:13:slab_ptr_is_good	0	static
+C:/ncs/v2.9.0/zephyr/kernel/mem_slab.c:132:12:init_mem_slab_obj_core_list	8	static
+C:/ncs/v2.9.0/zephyr/kernel/mem_slab.c:171:5:k_mem_slab_init	8	static
+C:/ncs/v2.9.0/zephyr/kernel/mem_slab.c:219:5:k_mem_slab_alloc	40	static
+C:/ncs/v2.9.0/zephyr/kernel/mem_slab.c:268:6:k_mem_slab_free	24	static
+C:/ncs/v2.9.0/zephyr/kernel/mem_slab.c:296:5:k_mem_slab_runtime_stats_get	24	static

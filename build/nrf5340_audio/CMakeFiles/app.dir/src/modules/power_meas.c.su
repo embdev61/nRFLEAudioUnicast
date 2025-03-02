@@ -1,0 +1,9 @@
+C:/ncs/v2.9.0/zephyr/include/zephyr/kernel.h:566:23:k_msleep	8	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/logging/log_msg.h:705:20:z_log_msg_runtime_create	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/modules/power_meas.c:45:12:read_and_log	96	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/modules/power_meas.c:78:13:meas_thread_fn	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/modules/power_meas.c:106:12:power_meas_init	40	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/modules/power_meas.c:212:12:cmd_meas_stop	8	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/modules/power_meas.c:141:12:cmd_info	16	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/modules/power_meas.c:194:12:cmd_meas_start	8	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/modules/power_meas.c:154:12:cmd_config	24	static

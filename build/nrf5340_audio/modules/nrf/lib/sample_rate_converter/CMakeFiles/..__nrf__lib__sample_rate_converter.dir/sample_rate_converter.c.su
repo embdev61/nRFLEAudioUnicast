@@ -1,0 +1,5 @@
+C:/ncs/v2.9.0/zephyr/include/zephyr/logging/log_msg.h:705:20:z_log_msg_runtime_create	32	static
+C:/ncs/v2.9.0/nrf/lib/sample_rate_converter/sample_rate_converter.c:37:12:validate_sample_rates	24	static
+C:/ncs/v2.9.0/nrf/lib/sample_rate_converter/sample_rate_converter.c:93:12:sample_rate_converter_reconfigure	48	static
+C:/ncs/v2.9.0/nrf/lib/sample_rate_converter/sample_rate_converter.c:190:5:sample_rate_converter_open	24	static
+C:/ncs/v2.9.0/nrf/lib/sample_rate_converter/sample_rate_converter.c:202:5:sample_rate_converter_process	1976	static

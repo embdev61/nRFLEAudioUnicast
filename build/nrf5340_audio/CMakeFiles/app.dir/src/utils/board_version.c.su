@@ -1,0 +1,11 @@
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/adc.h:744:19:adc_channel_setup_dt	8	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:965:19:z_impl_gpio_pin_configure	24	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:1028:19:gpio_pin_configure_dt	8	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:1576:19:gpio_pin_set_raw	8	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:1616:19:gpio_pin_set	16	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/utils/board_version.c:37:12:divider_value_get	8	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/logging/log_msg.h:705:20:z_log_msg_runtime_create	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/utils/board_version.c:94:12:board_version_init	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/utils/board_version.c:65:12:version_search	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/utils/board_version.c:128:5:board_version_get	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/utils/board_version.c:156:5:board_version_valid_check	56	static

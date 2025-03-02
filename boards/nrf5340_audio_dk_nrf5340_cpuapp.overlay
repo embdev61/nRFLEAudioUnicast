@@ -52,11 +52,25 @@
 };
 */
 
+/* 
 &gpio0 {
     status = "okay";
     custom_gpio22: custom_gpio22 {
         compatible = "gpio-leds";
         gpios = <&gpio0 22 GPIO_ACTIVE_HIGH>;
         label = "Custom GPIO 22";
+    };
+};
+*/
+
+&gpio0 {
+    status = "okay";
+};
+/{
+    custom_gpio22: custom_gpio22 {
+        compatible = "nordic,gpio-pins";
+        gpios = <&gpio0 22 GPIO_ACTIVE_HIGH>;
+        status = "okay";
+        //label = "Custom GPIO 22";
     };
 };

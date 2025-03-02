@@ -1,0 +1,14 @@
+C:/ncs/v2.9.0/zephyr/drivers/flash/soc_flash_nrf.c:144:13:nvmc_wait_ready	0	static
+C:/ncs/v2.9.0/zephyr/drivers/flash/soc_flash_nrf.c:278:13:flash_nrf_pages_layout	0	static
+C:/ncs/v2.9.0/zephyr/drivers/flash/soc_flash_nrf.c:288:1:flash_nrf_get_parameters	0	static
+C:/ncs/v2.9.0/zephyr/drivers/flash/soc_flash_nrf.c:433:13:shift_write_context	0	static
+C:/ncs/v2.9.0/zephyr/drivers/flash/soc_flash_nrf.c:110:20:is_regular_addr_valid	16	static
+C:/ncs/v2.9.0/zephyr/drivers/flash/soc_flash_nrf.c:368:12:erase_op	16	static
+C:/ncs/v2.9.0/zephyr/drivers/flash/soc_flash_nrf.c:522:12:erase	24	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/logging/log_msg.h:705:20:z_log_msg_runtime_create	32	static
+C:/ncs/v2.9.0/zephyr/drivers/flash/soc_flash_nrf.c:226:12:flash_nrf_erase	48	static
+C:/ncs/v2.9.0/zephyr/drivers/flash/soc_flash_nrf.c:440:12:write_op	8	static
+C:/ncs/v2.9.0/zephyr/drivers/flash/soc_flash_nrf.c:538:12:write	24	static
+C:/ncs/v2.9.0/zephyr/drivers/flash/soc_flash_nrf.c:185:12:flash_nrf_write	48	static
+C:/ncs/v2.9.0/zephyr/drivers/flash/soc_flash_nrf.c:150:12:flash_nrf_read	40	static
+C:/ncs/v2.9.0/zephyr/drivers/flash/soc_flash_nrf.c:305:12:nrf_flash_init	8	static

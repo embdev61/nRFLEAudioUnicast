@@ -1,0 +1,16 @@
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:1260:19:gpio_port_get	16	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:1717:19:gpio_add_callback	8	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/modules/button_handler.c:75:13:on_button_debounce_timeout	0	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/logging/log_msg.h:705:20:z_log_msg_runtime_create	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/modules/button_handler.c:126:13:button_publish_thread	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/modules/button_handler.c:101:12:pin_msk_to_pin	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/modules/button_handler.c:84:12:pin_to_btn_idx	24	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:1528:19:gpio_pin_get	16	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:965:19:z_impl_gpio_pin_configure	24	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:1692:20:gpio_init_callback	8	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/drivers/gpio.h:866:19:z_impl_gpio_pin_interrupt_configure	16	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/modules/button_handler.c:145:13:button_isr	48	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/modules/button_handler.c:259:12:cmd_push_btn	40	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/modules/button_handler.c:247:12:cmd_print_all_btns	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/modules/button_handler.c:179:5:button_pressed	16	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/modules/button_handler.c:206:5:button_handler_init	32	static

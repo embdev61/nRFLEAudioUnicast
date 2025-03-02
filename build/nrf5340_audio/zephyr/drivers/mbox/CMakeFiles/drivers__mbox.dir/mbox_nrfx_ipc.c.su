@@ -1,0 +1,11 @@
+C:/ncs/v2.9.0/zephyr/drivers/mbox/mbox_nrfx_ipc.c:84:12:mbox_nrf_register_callback	0	static
+C:/ncs/v2.9.0/zephyr/drivers/mbox/mbox_nrfx_ipc.c:99:12:mbox_nrf_mtu_get	0	static
+C:/ncs/v2.9.0/zephyr/drivers/mbox/mbox_nrfx_ipc.c:105:17:mbox_nrf_max_channels_get	0	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/logging/log_msg.h:705:20:z_log_msg_runtime_create	32	static
+C:/ncs/v2.9.0/zephyr/drivers/mbox/mbox_nrfx_ipc.c:110:12:mbox_nrf_set_enabled	32	static
+C:/ncs/v2.9.0/zephyr/drivers/mbox/mbox_nrfx_ipc.c:48:13:mbox_dispatcher	40	static
+C:/ncs/v2.9.0/modules/hal/nordic/nrfx/hal/nrf_ipc.h:491:34:nrf_ipc_send_task_get	8	static
+C:/ncs/v2.9.0/modules/hal/nordic/nrfx/drivers/include/nrfx_ipc.h:201:25:nrfx_ipc_signal	8	static
+C:/ncs/v2.9.0/zephyr/drivers/mbox/mbox_nrfx_ipc.c:68:12:mbox_nrf_send	32	static
+C:/ncs/v2.9.0/zephyr/drivers/mbox/mbox_nrfx_ipc.c:148:13:enable_dt_channels	160	static
+C:/ncs/v2.9.0/zephyr/drivers/mbox/mbox_nrfx_ipc.c:177:12:mbox_nrf_init	8	static

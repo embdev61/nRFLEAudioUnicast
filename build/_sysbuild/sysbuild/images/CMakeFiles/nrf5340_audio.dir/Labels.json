@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/CMakeFiles/nrf5340_audio"
+		},
+		{
+			"file" : "C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/CMakeFiles/nrf5340_audio.rule"
+		},
+		{
+			"file" : "C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/CMakeFiles/nrf5340_audio-complete.rule"
+		},
+		{
+			"file" : "C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/nrf5340_audio-prefix/src/nrf5340_audio-stamp/nrf5340_audio-build.rule"
+		},
+		{
+			"file" : "C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/nrf5340_audio-prefix/src/nrf5340_audio-stamp/nrf5340_audio-configure.rule"
+		},
+		{
+			"file" : "C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/nrf5340_audio-prefix/src/nrf5340_audio-stamp/nrf5340_audio-download.rule"
+		},
+		{
+			"file" : "C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/nrf5340_audio-prefix/src/nrf5340_audio-stamp/nrf5340_audio-install.rule"
+		},
+		{
+			"file" : "C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/nrf5340_audio-prefix/src/nrf5340_audio-stamp/nrf5340_audio-mkdir.rule"
+		},
+		{
+			"file" : "C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/nrf5340_audio-prefix/src/nrf5340_audio-stamp/nrf5340_audio-patch.rule"
+		},
+		{
+			"file" : "C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/build/_sysbuild/sysbuild/images/nrf5340_audio-prefix/src/nrf5340_audio-stamp/nrf5340_audio-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nrf5340_audio"
+		],
+		"name" : "nrf5340_audio"
+	}
+}

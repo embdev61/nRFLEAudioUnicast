@@ -1,0 +1,16 @@
+C:/ncs/v2.9.0/zephyr/include/zephyr/logging/log_msg.h:705:20:z_log_msg_runtime_create	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/media/bt_content_ctrl_media.c:65:12:mcc_peer_index_get	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/media/bt_content_ctrl_media.c:45:12:mcc_peer_index_free_get	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/media/bt_content_ctrl_media.c:180:13:mcc_read_media_state_cb	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/media/bt_content_ctrl_media.c:163:13:mcc_cmd_notification_cb	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/media/bt_content_ctrl_media.c:273:12:mpl_cmd_send	40	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/media/bt_content_ctrl_media.c:138:13:mcc_send_command_cb	72	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/media/bt_content_ctrl_media.c:335:5:bt_content_ctrl_media_discover	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/media/bt_content_ctrl_media.c:377:5:bt_content_ctrl_media_state_update	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/media/bt_content_ctrl_media.c:88:13:mcc_discover_mcs_cb	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/media/bt_content_ctrl_media.c:399:5:bt_content_ctrl_media_play	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/media/bt_content_ctrl_media.c:426:5:bt_content_ctrl_media_pause	32	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/media/bt_content_ctrl_media.c:453:6:bt_content_ctlr_media_state_playing	0	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/media/bt_content_ctrl_media.c:462:5:bt_content_ctrl_media_conn_disconnected	24	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/media/bt_content_ctrl_media.c:477:5:bt_content_ctrl_media_client_init	8	static
+C:/ncs/v2.9.0/nrf/applications/nrf5340_audio/src/bluetooth/bt_content_control/media/bt_content_ctrl_media.c:497:5:bt_content_ctrl_media_server_init	24	static

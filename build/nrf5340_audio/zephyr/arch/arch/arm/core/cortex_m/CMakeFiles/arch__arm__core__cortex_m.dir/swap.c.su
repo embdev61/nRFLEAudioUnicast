@@ -1,0 +1,2 @@
+C:/ncs/v2.9.0/zephyr/arch/arm/core/cortex_m/swap.c:34:5:arch_swap	0	static
+C:/ncs/v2.9.0/zephyr/arch/arm/core/cortex_m/swap.c:52:11:z_arm_pendsv_c	0	static

@@ -1,0 +1,7 @@
+C:/ncs/v2.9.0/zephyr/drivers/sensor/ti/ina23x/ina230.c:27:12:ina230_channel_get	0	static
+C:/ncs/v2.9.0/zephyr/include/zephyr/logging/log_msg.h:705:20:z_log_msg_runtime_create	32	static
+C:/ncs/v2.9.0/zephyr/drivers/sensor/ti/ina23x/ina230.c:69:12:ina230_sample_fetch	40	static
+C:/ncs/v2.9.0/zephyr/drivers/sensor/ti/ina23x/ina230.c:128:12:ina230_attr_get	32	static
+C:/ncs/v2.9.0/zephyr/drivers/sensor/ti/ina23x/ina230.c:107:12:ina230_attr_set	24	static
+C:/ncs/v2.9.0/zephyr/drivers/sensor/ti/ina23x/ina230.c:171:12:ina230_calibrate	8	static
+C:/ncs/v2.9.0/zephyr/drivers/sensor/ti/ina23x/ina230.c:185:12:ina230_init	32	static
